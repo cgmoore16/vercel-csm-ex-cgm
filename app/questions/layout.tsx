@@ -4,7 +4,9 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React from 'react';
 
-const PaginationTriangle = ({ number, isActive }) => (
+
+
+const PaginationTriangle = ( {number} : {number:any}, isActive: any ) => (
   <svg
     width="76"
     height="65"
